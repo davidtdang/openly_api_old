@@ -42,3 +42,16 @@ gem 'turbolinks'
 gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass', branch: 'v1.0beta'
 gem 'yelp', require: 'yelp'
 gem 'google_places'
+gem 'geocoder'
+
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'launchy'
+  gem 'better_errors'
+  gem 'quiet_assets'
+  gem 'binding_of_caller'
+  gem 'jasmine'
+
+end
