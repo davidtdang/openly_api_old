@@ -22,6 +22,8 @@ gem 'rack-cors', '~> 0.3.1'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'active_model_serializers', '~> 0.9.3'
+
+gem 'dotenv-rails'
 # Use unicorn as the app server
 # gem 'unicorn'
 
@@ -30,3 +32,13 @@ gem 'active_model_serializers', '~> 0.9.3'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+
+gem 'sass-rails', '~> 4.0.3'
+gem 'uglifier', '>= 1.3.0'
+gem 'coffee-rails', '~> 4.0.0'
+gem 'jquery-rails'
+gem 'turbolinks'
+gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass', branch: 'v1.0beta'
+gem 'yelp', require: 'yelp'
+gem 'google_places'
